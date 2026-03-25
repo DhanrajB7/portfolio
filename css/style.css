@@ -1095,9 +1095,9 @@ body:not(.touch) .cursor { opacity: 1; }
     transform: translateY(-2px);
 }
 
-/* Featured personal project cards — 3-column on desktop */
+/* Featured personal project cards — 2-column on desktop */
 .projects-subsection:first-child .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width: 1024px) {
